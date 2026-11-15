@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kees · binnenkort</title>
+<meta name="description" content="Kees: jouw Nederlandse assistent voor alledaagse vragen. Binnenkort.">
+<!-- Awin -->
+<meta name="awin" content="Awin">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@700&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{--oranje:#C2410C;--creme:#FBF6EC;--inkt:#1F2A37;--grijs:#5A6273;--lijn:#E5DCC8}
+  @media (prefers-color-scheme:dark){:root{--oranje:#F07A3C;--creme:#141B24;--inkt:#F3ECDD;--grijs:#A9B1BE;--lijn:#2C3846}}
+  *{box-sizing:border-box}
+  body{margin:0;min-height:100vh;display:flex;flex-direction:column;background:var(--creme);color:var(--inkt);font-family:Nunito,system-ui,sans-serif}
+  main{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;padding:40px 24px;text-align:center}
+  h1{font-family:Fredoka,Nunito,sans-serif;font-size:clamp(48px,10vw,88px);line-height:1;margin:0;color:var(--oranje)}
+  p{margin:0;font-size:19px;line-height:1.55;max-width:520px}
+  .klein{font-size:15px;color:var(--grijs)}
+  .horizon{width:min(520px,90%);height:1px;background:var(--inkt);opacity:.5;margin:8px 0}
+  footer{padding:20px 24px 28px;text-align:center;font-size:14px;color:var(--grijs)}
+  footer a{color:inherit}
+  .legs{stroke:var(--inkt)}
+</style>
+</head>
+<body>
+<main>
+  <svg role="img" aria-label="Kees de reiger" width="120" height="140" viewBox="0 0 120 140">
+    <path class="legs" d="M58 96 L52 136 M66 96 L70 136" stroke-width="3" stroke-linecap="round"/>
+    <ellipse cx="62" cy="80" rx="30" ry="22" fill="#E6EDF4"/>
+    <path d="M40 80 Q62 70 86 84" stroke="#9AA6B4" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M50 66 Q44 40 56 26" stroke="#E6EDF4" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <circle cx="58" cy="24" r="12" fill="#E6EDF4"/>
+    <path class="legs" d="M62 16 Q76 8 88 12" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M48 22 L18 27 L48 30 Z" fill="#F4A24A"/>
+    <circle cx="55" cy="22" r="2.6" fill="#1F2A37"/>
+    <path d="M46 40 Q58 48 62 38 L60 56 Q52 54 46 50 Z" fill="#C2410C"/>
+  </svg>
+  <div class="horizon"></div>
+  <h1>Kees</h1>
+  <p>Jouw assistent voor alledaagse vragen, van hier. Met eerlijk advies, actuele prijzen en altijd een bron.</p>
+  <p class="klein">Kees is nog in een besloten testfase. Binnenkort meer.</p>
+</main>
+<footer>
+  Vragen of contact: <a href="mailto:hoi.kees.nl@gmail.com">hoi.kees.nl@gmail.com</a>
+</footer>
+</body>
+</html>
