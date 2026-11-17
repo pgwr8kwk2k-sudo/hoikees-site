@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="645" height="764" viewBox="55 47 645 764" role="img" aria-labelledby="titel beschrijving">
+  <title id="titel">Kees de blauwe reiger</title>
+  <desc id="beschrijving">Een staande blauwe reiger met een oranje sjaal, rechtop in profiel, naar links kijkend.</desc>
+
+  <g transform="translate(755 0) scale(-1 1)">
+    <g id="poten" fill="none" stroke="#5A6B7F" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke-width="9.5" d="M304 468
+        C297 504 283 556 275 586
+        Q272 596 274 608
+        L287 716
+        Q288 722 294 723" />
+      <path stroke-width="5.5" d="M288 719 C275 719 266 721 259 726
+        M291 723 C307 721 323 719 337 725
+        M291 724 C305 726 315 730 322 736" />
+      <path stroke-width="9.5" d="M353 473
+        C357 510 367 550 368 583
+        Q369 595 365 609
+        L347 733
+        Q346 742 353 743" />
+      <path stroke-width="5.5" d="M348 739 C337 741 326 745 319 751
+        M351 743 C367 740 386 740 402 747
+        M352 744 C365 746 380 751 388 758" />
+    </g>
+
+    <defs>
+      <path id="silhouet" d="M109 457
+        C148 437 178 411 205 390
+        C237 366 270 355 305 353
+        C337 351 353 338 359 320
+        C366 301 356 279 347 253
+        C330 205 347 162 385 126
+        C401 111 421 100 444 97
+        C473 93 495 103 508 122
+        C542 123 598 135 644 148
+        C600 151 545 155 504 156
+        C493 168 475 172 456 176
+        C429 183 409 196 403 219
+        C398 239 404 255 413 278
+        C426 309 435 338 430 370
+        C424 422 402 466 364 485
+        C336 499 300 504 262 495
+        C226 487 194 473 164 470
+        C142 467 123 465 109 457 Z" />
+    </defs>
+
+    <use href="#silhouet" fill="#E6EDF4" />
+    <path id="snavel" fill="#F4A24A" d="M508 122
+      C542 123 598 135 644 148
+      C600 151 545 155 504 156
+      Q491 148 493 139
+      Q497 129 508 122 Z" />
+    <use href="#silhouet" fill="none" stroke="#5A6B7F" stroke-width="5.5" stroke-linejoin="round" />
+    <path d="M508 122 C542 123 598 135 644 148 C600 151 545 155 504 156"
+      fill="none" stroke="#A64D26" stroke-width="5.5" stroke-linejoin="round" />
+    <path d="M501 144 C538 141 583 143 622 147" fill="none" stroke="#C2410C" stroke-width="3.5" stroke-linecap="round" />
+
+    <path id="vleugel" fill="#9FB0C2" stroke="#5A6B7F" stroke-width="5.5" stroke-linejoin="round" d="M354 363
+      C331 353 306 362 278 378
+      C247 396 222 413 194 428
+      C173 440 149 450 130 455
+      C152 465 184 468 216 466
+      C245 465 271 457 294 449
+      C331 436 356 420 368 398
+      C376 384 368 369 354 363 Z" />
+    <path id="slagpennen" fill="none" stroke="#5A6B7F" stroke-width="5" stroke-linecap="round" d="M222 429 C250 423 276 414 300 397
+      M195 446 C231 444 264 435 290 419
+      M232 453 C259 449 281 441 302 430" />
+
+    <path id="nekstippels" fill="none" stroke="#5A6B7F" stroke-width="5" stroke-linecap="round" stroke-dasharray="0.1 12.5" d="M435 173
+      C410 182 396 200 392 220
+      C386 241 393 262 402 285
+      C415 317 422 343 415 374" />
+
+    <path id="oogstreep-en-kuif" fill="#111820" stroke="#5A6B7F" stroke-width="3" stroke-linejoin="round" paint-order="stroke" d="M476 117
+      C456 111 432 108 407 112
+      C374 117 344 118 304 101
+      C324 116 349 125 375 128
+      C352 130 332 136 316 144
+      C346 138 371 134 396 135
+      C422 137 448 124 472 122
+      Q478 121 476 117 Z" />
+    <circle id="oog" cx="473" cy="133" r="7.8" fill="#111820" />
+    <circle cx="475.1" cy="130.8" r="2.25" fill="#FFFFFF" />
+
+    <g id="sjaal" fill="#C2410C">
+      <path d="M338 243
+        C323 244 315 256 307 273
+        C298 292 286 305 271 311
+        L284 325
+        C306 318 323 300 332 278
+        C337 266 341 256 347 250 Z
+        M342 246
+        C332 262 335 280 325 300
+        C321 309 313 320 304 328
+        L321 334
+        C340 314 349 290 348 266
+        Q348 255 353 250 Z" />
+      <path d="M341 222
+        C358 231 382 232 400 222
+        C405 219 408 222 408 226
+        L409 239
+        Q409 245 403 249
+        C385 261 358 260 341 251
+        C336 248 333 239 335 231
+        Q336 225 341 222 Z" />
+      <path d="M350 233
+        C355 235 358 241 356 247
+        C355 254 351 259 344 258
+        C336 258 328 253 326 247
+        C323 240 329 234 337 232
+        Q344 230 350 233 Z" />
+      <path d="M351 235 Q360 242 351 254 M337 257 Q335 265 332 271" fill="none" stroke="#803313" stroke-width="3.5" stroke-linecap="round" />
+    </g>
+  </g>
+</svg>

@@ -1,16 +1,90 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Kees">
-  <rect width="512" height="512" rx="112" fill="#C2410C"/>
-  <!-- nek -->
-  <path d="M300 520 C300 420 270 360 290 300" stroke="#E6EDF4" stroke-width="80" stroke-linecap="round" fill="none"/>
-  <!-- kop -->
-  <ellipse cx="290" cy="240" rx="92" ry="80" fill="#E6EDF4"/>
-  <!-- kuif -->
-  <path d="M340 190 C390 182 430 200 458 236" stroke="#1F2A37" stroke-width="16" stroke-linecap="round" fill="none"/>
-  <path d="M348 214 C384 214 414 230 436 258" stroke="#1F2A37" stroke-width="12" stroke-linecap="round" fill="none"/>
-  <!-- snavel -->
-  <path d="M220 222 L36 256 L220 280 Z" fill="#F4A24A"/>
-  <!-- oog -->
-  <circle cx="262" cy="230" r="15" fill="#1F2A37"/><circle cx="267" cy="225" r="5" fill="#fff"/>
-  <!-- sjaal -->
-  <path d="M238 380 C270 400 320 400 352 380 L358 430 C320 452 270 452 232 430 Z" fill="#9A3412"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 125 500 500" role="img" aria-labelledby="titel beschrijving">
+  <title id="titel">Kees als app-icoon</title>
+  <desc id="beschrijving">Kees kijkt naar links. Zijn kop, gebogen hals en oranje sjaal staan op een vierkante oranje tegel met afgeronde hoeken.</desc>
+
+  <defs>
+    <clipPath id="tegelrand">
+      <rect y="125" width="500" height="500" rx="106" />
+    </clipPath>
+    <path id="silhouet" d="M313 231
+      C297 216 277 205 254 202
+      C225 198 203 208 190 227
+      C156 228 100 240 54 253
+      C98 256 153 260 194 261
+      C205 273 223 277 242 281
+      C271 287 290 300 284 317
+      C280 331 260 341 264 358
+      C268 378 288 388 304 402
+      C329 423 333 443 321 471
+      C300 519 268 576 274 645
+      L365 645
+      C359 581 385 535 408 487
+      C428 443 431 402 404 361
+      C386 335 360 321 350 295
+      C342 274 340 256 313 231 Z" />
+    <g id="sjaalvorm">
+      <path d="M345 277
+        C371 259 397 276 429 263
+        L435 279
+        C402 295 376 278 350 295 Z
+        M346 284
+        C369 284 381 300 400 305
+        C415 309 428 306 440 300
+        L447 316
+        C428 326 408 327 391 321
+        C370 314 362 302 347 302 Z" />
+      <path d="M328 254
+        C317 271 301 283 275 289
+        Q268 290 272 298
+        L281 311 Q284 315 291 313
+        C314 311 338 296 344 282
+        Q348 275 343 268
+        L337 256 Q333 249 328 254 Z" />
+      <path d="M331 274
+        C337 268 348 269 354 275
+        C361 282 359 292 352 298
+        C346 304 335 300 329 294
+        Q322 282 331 274 Z" />
+    </g>
+  </defs>
+
+  <g clip-path="url(#tegelrand)">
+    <path fill="#C2410C" d="M0 125h500v500H0z" />
+    <use href="#silhouet" fill="#E6EDF4" />
+    <path id="snavel" fill="#F4A24A" d="M190 227
+      C156 228 100 240 54 253
+      C98 256 153 260 194 261
+      Q207 253 205 244
+      Q201 234 190 227 Z" />
+    <use href="#silhouet" fill="none" stroke="#5A6B7F" stroke-width="5.5" stroke-linejoin="round" />
+    <path d="M190 227 C156 228 100 240 54 253 C98 256 153 260 194 261"
+      fill="none" stroke="#F4A24A" stroke-width="5.5" stroke-linejoin="round" />
+    <path d="M197 249 C160 246 115 248 76 252" fill="none" stroke="#A64D26" stroke-width="4" stroke-linecap="round" />
+
+    <path id="nekstippels" fill="none" stroke="#5A6B7F" stroke-width="7" stroke-linecap="round" stroke-dasharray="0.1 15.5" d="M240 267
+      C271 275 301 292 298 317
+      C296 337 275 345 278 358
+      C283 374 304 383 319 400
+      C337 419 344 440 333 465" />
+
+    <g id="kopdetails" transform="translate(698 105) scale(-1 1)">
+      <path id="oogstreep-en-kuif" fill="#111820" stroke="#5A6B7F" stroke-width="3" stroke-linejoin="round" paint-order="stroke" d="M476 117
+        C456 111 432 108 407 112
+        C374 117 344 118 304 101
+        C324 116 349 125 375 128
+        C352 130 332 136 316 144
+        C346 138 371 134 396 135
+        C422 137 448 124 472 122
+        Q478 121 476 117 Z" />
+      <circle id="oog" cx="473" cy="133" r="7.8" fill="#111820" />
+      <circle cx="475.1" cy="130.8" r="2.25" fill="#FFFFFF" />
+    </g>
+
+    <g id="sjaal" fill="#C2410C">
+      <use href="#sjaalvorm" stroke="#E6EDF4" stroke-width="12" stroke-linejoin="round" />
+      <use href="#sjaalvorm" />
+      <path d="M332 275 Q325 285 333 295 M355 285 Q364 284 372 287"
+        fill="none" stroke="#803313" stroke-width="3.5" stroke-linecap="round" />
+    </g>
+  </g>
 </svg>
