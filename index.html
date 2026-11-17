@@ -3,30 +3,31 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Kees · binnenkort</title>
-<meta name="description" content="Kees: jouw Nederlandse assistent voor alledaagse vragen. Binnenkort.">
 <!-- Awin -->
 <meta name="awin" content="Awin">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@700&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
-<style>
-  :root{--oranje:#C2410C;--creme:#FBF6EC;--inkt:#1F2A37;--grijs:#5A6273;--lijn:#E5DCC8}
-  @media (prefers-color-scheme:dark){:root{--oranje:#F07A3C;--creme:#141B24;--inkt:#F3ECDD;--grijs:#A9B1BE;--lijn:#2C3846}}
-  *{box-sizing:border-box}
-  body{margin:0;min-height:100vh;display:flex;flex-direction:column;background:var(--creme);color:var(--inkt);font-family:Nunito,system-ui,sans-serif}
-  main{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;padding:40px 24px;text-align:center}
-  h1{font-family:Fredoka,Nunito,sans-serif;font-size:clamp(48px,10vw,88px);line-height:1;margin:0;color:var(--oranje)}
-  p{margin:0;font-size:19px;line-height:1.55;max-width:520px}
-  .klein{font-size:15px;color:var(--grijs)}
-  .horizon{width:min(520px,90%);height:1px;background:var(--inkt);opacity:.5;margin:8px 0}
-  footer{padding:20px 24px 28px;text-align:center;font-size:14px;color:var(--grijs)}
-  footer a{color:inherit}
-  .legs{stroke:var(--inkt)}
-</style>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preload" href="fonts/fredoka-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+<title>Kees · jouw assistent voor alledaagse vragen</title>
+<meta name="description" content="Kees is een assistent voor alledaagse vragen in Nederland: eerlijk advies, bedragen en regels met bron, en prijzen die kloppen. Nu in een besloten testfase.">
+<meta property="og:title" content="Kees, klaar is Kees">
+<meta property="og:description" content="Een assistent voor alledaagse vragen in Nederland. Eerlijk advies, altijd met bron.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://hoikees.nl/">
+<meta name="theme-color" content="#FBF6EC">
 </head>
 <body>
+<div class="wrap">
+<header class="top">
+  <a class="kees-naam" href="/">Kees</a>
+  <nav aria-label="Menu"><a href="privacy.html">Privacy</a></nav>
+</header>
+<div class="horizon"></div>
+
 <main>
-  <svg role="img" aria-label="Kees de reiger" width="120" height="140" viewBox="0 0 120 140">
+<section class="hero">
+  <svg role="img" aria-label="Kees de reiger" viewBox="0 0 120 140" width="111" height="130">
     <path class="legs" d="M58 96 L52 136 M66 96 L70 136" stroke-width="3" stroke-linecap="round"/>
     <ellipse cx="62" cy="80" rx="30" ry="22" fill="#E6EDF4"/>
     <path d="M40 80 Q62 70 86 84" stroke="#9AA6B4" stroke-width="3" fill="none" stroke-linecap="round"/>
@@ -37,13 +38,39 @@
     <circle cx="55" cy="22" r="2.6" fill="#1F2A37"/>
     <path d="M46 40 Q58 48 62 38 L60 56 Q52 54 46 50 Z" fill="#C2410C"/>
   </svg>
-  <div class="horizon"></div>
   <h1>Kees</h1>
-  <p>Jouw assistent voor alledaagse vragen, van hier. Met eerlijk advies, actuele prijzen en altijd een bron.</p>
-  <p class="klein">Kees is nog in een besloten testfase. Binnenkort meer.</p>
+  <p>Jouw assistent voor alledaagse vragen, van hier. Eerlijk advies, bedragen en regels met een bron, en prijzen die kloppen.</p>
+  <a class="knop" href="https://app.hoikees.nl">Naar Kees</a>
+  <p class="klein" style="margin-top:14px">Kees is nu in een besloten testfase. Inloggen kan met je e-mailadres.</p>
+</section>
+
+<section class="kaart">
+  <h2>Wat is Kees?</h2>
+  <p>Kees is een assistent waaraan je gewone vragen stelt: welke airfryer past bij jou, wat er geldt voor zorgtoeslag, wanneer je je zorgverzekering kunt wijzigen, hoeveel dagen het nog is tot Sinterklaas. Hij antwoordt kort en duidelijk, in gewoon Nederlands.</p>
+  <p>Kees is een computerprogramma, geen mens. Dat zegt hij ook als je het vraagt.</p>
+
+  <h2>Hoe zorgt Kees dat het klopt?</h2>
+  <ul>
+    <li><strong>Regels en bedragen komen uit officiële bronnen</strong>, zoals de Belastingdienst, Rijksoverheid en de Sociale Verzekeringsbank. Bij het antwoord staat de bron en de datum waarop die is nagekeken.</li>
+    <li><strong>Prijzen komen uit een lijst met producten</strong>, niet uit het geheugen van de assistent. Bij elke prijs staat waar en wanneer die is gecontroleerd.</li>
+    <li><strong>Elk antwoord wordt gecontroleerd</strong> voordat je het ziet. Staat er een bedrag, merk of website in dat niet uit de bronnen komt, dan haalt Kees het weg.</li>
+    <li><strong>Weet Kees het niet zeker, dan zegt hij dat</strong>, met wat wel bekend is en hoe je het zelf kunt nagaan.</li>
+  </ul>
+
+  <h2>Hoe verdient Kees geld?</h2>
+  <p>Kees toont geen reclame en neemt geen betaalde plekken aan. Als je via een knop als <em>Bekijk bij Coolblue</em> iets koopt, kan Kees een kleine vergoeding van de winkel krijgen. Dat kost jou niets extra, en het bepaalt nooit wat Kees adviseert. Dat staat ook in de app.</p>
+
+  <h2>Waar staat Kees nu?</h2>
+  <p>Kees is een testversie. De productlijst is nog klein en we voegen steeds onderwerpen en winkels toe. Merk je een fout, dan kun je in de app onder een antwoord op <em>Dit klopt niet</em> drukken. Dat lezen we.</p>
+
+  <h2>Contact</h2>
+  <p>Vragen, ideeën of iets dat niet klopt? Mail naar <a href="mailto:hoi@hoikees.nl">hoi@hoikees.nl</a>. Kees is een product van Dijk, Almelo.</p>
+</section>
 </main>
+
 <footer>
-  Vragen of contact: <a href="mailto:hoi.kees.nl@gmail.com">hoi.kees.nl@gmail.com</a>
+  <a href="https://app.hoikees.nl">Naar de app</a> · <a href="privacy.html">Privacy</a> · <a href="mailto:hoi@hoikees.nl">hoi@hoikees.nl</a>
 </footer>
+</div>
 </body>
 </html>

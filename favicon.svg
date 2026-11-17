@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Kees">
+  <rect width="512" height="512" rx="112" fill="#C2410C"/>
+  <!-- nek -->
+  <path d="M300 520 C300 420 270 360 290 300" stroke="#E6EDF4" stroke-width="80" stroke-linecap="round" fill="none"/>
+  <!-- kop -->
+  <ellipse cx="290" cy="240" rx="92" ry="80" fill="#E6EDF4"/>
+  <!-- kuif -->
+  <path d="M340 190 C390 182 430 200 458 236" stroke="#1F2A37" stroke-width="16" stroke-linecap="round" fill="none"/>
+  <path d="M348 214 C384 214 414 230 436 258" stroke="#1F2A37" stroke-width="12" stroke-linecap="round" fill="none"/>
+  <!-- snavel -->
+  <path d="M220 222 L36 256 L220 280 Z" fill="#F4A24A"/>
+  <!-- oog -->
+  <circle cx="262" cy="230" r="15" fill="#1F2A37"/><circle cx="267" cy="225" r="5" fill="#fff"/>
+  <!-- sjaal -->
+  <path d="M238 380 C270 400 320 400 352 380 L358 430 C320 452 270 452 232 430 Z" fill="#9A3412"/>
+</svg>
