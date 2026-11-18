@@ -33,7 +33,7 @@ footer a{color:inherit}
 article h1{font-family:Nunito,system-ui,sans-serif;font-weight:800;font-size:32px;line-height:1.2;color:var(--inkt);margin:28px 0 6px}
 
 /* Kees vliegt door een polderlandschap: vier zwarte silhouetten als masker, zodat ze in licht en donker de juiste kleur krijgen. */
-.toneel{position:relative;height:210px;max-width:560px;margin:0 auto 6px;overflow:hidden;border-radius:24px;background:var(--kaart);border:1px solid var(--lijn)}
+.toneel{position:relative;height:210px;max-width:660px;margin:0 auto 6px;overflow:hidden;-webkit-mask-image:linear-gradient(to right,transparent,#000 14%,#000 86%,transparent);mask-image:linear-gradient(to right,transparent,#000 14%,#000 86%,transparent)} /* geen kader: het landschap loopt aan de zijkanten zacht uit */
 .laag{position:absolute;left:0;bottom:0;--h:140px;height:var(--h);width:calc(100% + var(--h)*8);background:var(--inkt);-webkit-mask:var(--plaatje) repeat-x 0 0/auto 100%;mask:var(--plaatje) repeat-x 0 0/auto 100%;animation:schuif var(--duur) linear infinite;will-change:transform}
 .laag-wolken{--h:210px;--duur:260s;opacity:.10}
 .laag-ver{--duur:95s;opacity:.22}
