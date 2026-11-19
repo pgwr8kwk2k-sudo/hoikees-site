@@ -9,7 +9,7 @@
 <link rel="icon" href="favicon-kop-64.png" type="image/png" sizes="64x64">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="preload" href="fonts/fredoka-700.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="style.css?v=2">
+<link rel="stylesheet" href="style.css?v=3">
 <title>Kees · jouw assistent voor alledaagse vragen</title>
 <meta name="description" content="Kees is een assistent voor alledaagse vragen in Nederland: eerlijk advies, bedragen en regels met bron, en prijzen die kloppen. Nu in een besloten testfase.">
 <meta property="og:title" content="Kees, klaar is Kees">
@@ -162,20 +162,61 @@
   <h2>Wat is Kees?</h2>
   <p>Kees is een assistent waaraan je gewone vragen stelt: welke airfryer past bij jou, wat er geldt voor zorgtoeslag, wanneer je je zorgverzekering kunt wijzigen, hoeveel dagen het nog is tot Sinterklaas. Hij antwoordt kort en duidelijk, in gewoon Nederlands.</p>
   <p>Kees is een computerprogramma (AI), geen mens. Dat zegt hij ook als je het vraagt.</p>
+</section>
 
+<section class="kaart" aria-labelledby="voorbeeld-kop">
+  <h2 id="voorbeeld-kop">Zo ziet een antwoord eruit</h2>
+  <p class="klein">Twee voorbeelden uit de testversie. De producten, prijzen en tijden in het eerste voorbeeld zijn verzonnen: Kees werkt nu met een kleine lijst voorbeeldproducten. Het tweede antwoord komt uit de echte kennisbank.</p>
+
+  <figure class="voorbeeld" aria-label="Voorbeeld: een productvraag">
+    <div class="v-vraag">Welke airfryer past bij twee personen?</div>
+    <div class="v-antwoord">
+      <p>Voor twee personen is een kleine airfryer genoeg. Neem de Airfryer AF-100 van Testmerk: 3,5 liter, snel op temperatuur en makkelijk schoon te maken.</p>
+      <div class="v-product">
+        <div class="v-kop"><div><span class="v-merk">Testmerk</span><span class="v-naam">Airfryer AF-100</span></div><div class="v-prijs">&euro;89,95</div></div>
+        <div class="v-regel"><span class="v-voorraad">Op voorraad</span> <span class="klein">bij Coolblue</span></div>
+        <div class="v-controle"><span aria-hidden="true">&#10003;</span> gecontroleerd op 19 november om 13:04</div>
+        <span class="knop v-knop">Bekijk bij Coolblue</span>
+      </div>
+    </div>
+    <figcaption class="klein">Voorbeeld. Dit is een afbeelding van het antwoord, geen echte knop.</figcaption>
+  </figure>
+
+  <figure class="voorbeeld" aria-label="Voorbeeld: een vraag over een regel">
+    <div class="v-vraag">Hoe lang is mijn opzegtermijn als ik zelf opzeg?</div>
+    <div class="v-antwoord">
+      <p>Heb je een vast contract, dan is je opzegtermijn <strong>1 kalendermaand</strong>. Wil je per 1 april weg, dan zeg je uiterlijk voor 1 maart schriftelijk op. In je contract kan een langere termijn staan, maximaal 6 maanden.</p>
+      <div class="v-bron"><span class="v-vink" aria-hidden="true">&#10003;</span><span><strong>Bron: Rijksoverheid</strong> <span class="klein">gecontroleerd op 16 november 2026</span></span></div>
+    </div>
+  </figure>
+</section>
+
+<section class="kaart" aria-labelledby="winkel-kop">
+  <h2 id="winkel-kop">Hoe komt iemand bij een winkel?</h2>
+  <ol>
+    <li>Je stelt een vraag, bijvoorbeeld welke airfryer bij je past.</li>
+    <li>Kees zoekt in zijn eigen productlijst. Prijzen en voorraad komen daaruit, nooit uit het geheugen van de assistent.</li>
+    <li>Hij geeft een advies met een productkaart: naam, prijs, winkel en het tijdstip waarop de prijs is gecontroleerd.</li>
+    <li>Met de knop <em>Bekijk bij Coolblue</em> ga je naar het product in de winkel, in een nieuw venster. De aankoop doe je bij de winkel zelf. De knop is als verwijzing gemarkeerd (<code>rel="sponsored"</code>).</li>
+  </ol>
+  <p>Meer uitleg staat in de app, onder <a href="https://app.hoikees.nl/#uitleg">Zo werkt Kees</a>. Die pagina is zonder inloggen te lezen.</p>
+</section>
+
+<section class="kaart">
   <h2>Hoe zorgt Kees dat het klopt?</h2>
   <ul>
     <li><strong>Regels en bedragen komen uit officiële bronnen</strong>, zoals de Belastingdienst, Rijksoverheid en de Sociale Verzekeringsbank. Bij het antwoord staat de bron en de datum waarop die is nagekeken.</li>
     <li><strong>Prijzen komen uit een lijst met producten</strong>, niet uit het geheugen van de assistent. Bij elke prijs staat waar en wanneer die is gecontroleerd.</li>
     <li><strong>Elk antwoord wordt gecontroleerd</strong> voordat je het ziet. Staat er een bedrag, merk of website in dat niet uit de bronnen komt, dan haalt Kees het weg.</li>
     <li><strong>Weet Kees het niet zeker, dan zegt hij dat</strong>, met wat wel bekend is en hoe je het zelf kunt nagaan.</li>
+    <li><strong>Verandert een regel, dan merk je dat.</strong> Een antwoord dat niet meer klopt, krijgt een melding met wat er nu geldt.</li>
   </ul>
 
   <h2>Hoe verdient Kees geld?</h2>
-  <p>Kees toont geen reclame en neemt geen betaalde plekken aan. Als je via een knop als <em>Bekijk bij Coolblue</em> iets koopt, kan Kees een kleine vergoeding van de winkel krijgen. Dat kost jou niets extra, en het bepaalt nooit wat Kees adviseert. Dat staat ook in de app.</p>
+  <p>Kees toont geen reclame en neemt geen betaalde plekken aan. Als je via een knop als <em>Bekijk bij Coolblue</em> iets koopt, kan Kees een kleine vergoeding van de winkel krijgen, via het affiliate-netwerk Awin. Dat kost jou niets extra, en het bepaalt nooit wat Kees adviseert. Dat staat ook in de app.</p>
 
   <h2>Waar staat Kees nu?</h2>
-  <p>Kees is een testversie. De productlijst is nog klein en we voegen steeds onderwerpen en winkels toe. Merk je een fout, dan kun je in de app onder een antwoord op <em>Dit klopt niet</em> drukken. Dat lezen we.</p>
+  <p>Kees is een testversie met een klein aantal testers. De productlijst bestaat nog uit voorbeeldproducten met voorbeeldprijzen, en de knop naar een winkel gaat voorlopig naar de homepage. Echte producten uit de winkelfeed en de verwijslinks van het affiliate-netwerk voegen we pas toe na goedkeuring door de winkel. Merk je een fout, dan kun je in de app onder een antwoord op <em>Dit klopt niet</em> drukken. Dat lezen we.</p>
 
   <h2>Contact</h2>
   <p>Vragen, ideeën of iets dat niet klopt? Mail naar <a href="mailto:hoi@hoikees.nl">hoi@hoikees.nl</a>. Kees is een product van Dijk, Almelo.</p>

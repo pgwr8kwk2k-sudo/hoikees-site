@@ -46,3 +46,23 @@ article h1{font-family:Nunito,system-ui,sans-serif;font-weight:800;font-size:32p
 @keyframes zweef{50%{transform:translateY(-6px)}}
 @keyframes klap{from{transform:rotate(-6deg)}to{transform:rotate(10deg)}}
 @media (prefers-reduced-motion:reduce){.laag,.vlieger,.vlieger .vleugel{animation:none}}
+
+/* Voorbeelden van een antwoord: dezelfde looks als in de app (bronstrook en productkaart), maar als afbeelding, niet bedienbaar. */
+.voorbeeld{margin:16px 0 0;padding:0}
+.v-vraag{margin:0 0 10px auto;width:fit-content;max-width:88%;background:var(--oranje);color:var(--knoptekst);border-radius:20px 20px 6px 20px;padding:9px 15px;line-height:1.45}
+.v-antwoord{max-width:38em}
+.v-antwoord p{margin:.2em 0 .6em}
+.v-product{background:var(--creme);border:1px solid var(--lijn);border-radius:16px;padding:12px 14px}
+.v-kop{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+.v-merk{display:block;font-size:14px;color:var(--grijs)}
+.v-naam{display:block;font-weight:800}
+.v-prijs{font-weight:800;font-size:21px}
+.v-regel{margin:4px 0}
+.v-voorraad{display:inline-block;font-size:14px;font-weight:700;color:var(--groen)}
+.v-controle{font-size:14px;color:var(--groen);margin:2px 0 10px}
+.v-knop{padding:9px 18px;font-size:16px;cursor:default}
+.v-bron{display:flex;gap:10px;align-items:center;background:color-mix(in srgb,var(--groen) 9%,var(--kaart));border-radius:12px;padding:8px 12px 8px 10px;font-size:15px}
+.v-vink{flex:none;width:20px;height:20px;border-radius:50%;background:var(--groen);color:var(--creme);display:grid;place-items:center;font-size:13px;font-weight:800;line-height:1}
+figcaption{margin-top:8px}
+ol{padding-left:1.4em}
+code{font-size:.92em;background:var(--creme);border:1px solid var(--lijn);border-radius:6px;padding:0 5px}
